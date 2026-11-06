@@ -5,9 +5,9 @@ import 'view_model.dart';
 final names = ['👀 これから観たい映画', '🎞️ 観た映画', '😍 みんなにおすすめしたい映画'];
 final labels = ['観てない映画', '観た映画', 'おすすめの映画'];
 final colors = [
-  Colors.blue.shade50,
-  Colors.orange.shade50,
-  Colors.green.shade50,
+  const Color.fromARGB(255, 145, 81, 200),
+  const Color.fromARGB(255, 255, 179, 58),
+  const Color.fromARGB(255, 255, 111, 195),
 ];
 
 class KanbanView extends StatefulWidget {
